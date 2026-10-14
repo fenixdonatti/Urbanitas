@@ -8,14 +8,21 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "db:generate": "bunx drizzle-kit generate",
+    "db:push": "bunx drizzle-kit push"
   },
   "dependencies": {
     "@clerk/nuxt": "^3.1.12",
+    "@electric-sql/pglite": "^0.5.10",
     "@iconify-json/lucide": "^1.2.142",
     "@iconify-json/simple-icons": "^1.2.99",
     "@nuxt/ui": "^4.11.3",
+    "@supabase/supabase-js": "^2.117.3",
+    "drizzle-kit": "^0.31.11",
+    "drizzle-orm": "^0.45.4",
     "nuxt": "^4.6.1",
+    "postgres": "^3.4.9",
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
